@@ -1,3 +1,8 @@
+## intent:more_info
+- i want to know about your website
+- tell me more about your site
+- what about your website
+
 ## intent:what_do_you_have
 - what can i get here?
 - what can i have to eat?

@@ -22,11 +22,11 @@ responses:
       title: Non-Vegetarian
     text: 'what would you prefer:'
   utter_veg:
-    - text: 'Here are the meals for you:'
-      image: "https://media-cdn.tripadvisor.com/media/photo-s/11/a7/72/0f/vegetarian-menu.jpg"
+  - image: https://media-cdn.tripadvisor.com/media/photo-s/11/a7/72/0f/vegetarian-menu.jpg
+    text: 'Here are the meals for you:'
   utter_non_veg:
-    - text: 'Here are the meals for you:'
-      image: "https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg"
+  - image: https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg
+    text: 'Here are the meals for you:'
   utter_anthingelse:
   - text: Is there any thing else sir?
   utter_thanks:

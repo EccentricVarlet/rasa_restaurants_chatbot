@@ -11,7 +11,10 @@ intents:
 - non_veg
 - order_name_veg
 - order_name_non_veg
+- more_info
 responses:
+  utter_info:
+  - text: “Here is the link to our website: https://www.rozzis.com.au/”
   utter_botgreet:
   - text: How can i help you sir?
   utter_veg_non_veg:
@@ -41,3 +44,4 @@ actions:
 - utter_non_veg
 - utter_anthingelse
 - utter_thanks
+- utter_info

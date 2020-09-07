@@ -1,47 +1,79 @@
-session_config:
-  session_expiration_time: 0
-  carry_over_slots_to_new_session: true
-intents:
-- greet
-- goodbye
-- affirm
-- deny
-- what_do_you_have
-- vegetarian
-- non_veg
-- order_name_veg
-- order_name_non_veg
-- more_info
-responses:
-  utter_info:
-  - text: “Here is the link to our website: https://www.rozzis.com.au/”
-  utter_botgreet:
-  - text: How can i help you sir?
-  utter_veg_non_veg:
-  - buttons:
-    - payload: /vegetarian
-      title: Vegetarian
-    - payload: /non_veg
-      title: Non-Vegetarian
-    text: 'what would you prefer:'
-  utter_veg:
-  - image: https://media-cdn.tripadvisor.com/media/photo-s/11/a7/72/0f/vegetarian-menu.jpg
-    text: 'Here are the meals for you:'
-  utter_non_veg:
-  - image: https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg
-    text: 'Here are the meals for you:'
-  utter_anthingelse:
-  - text: Is there any thing else sir?
-  utter_thanks:
-  - text: Thanks. We will get your order shortly.
-  utter_goodbye:
-  - text: Bye
-actions:
-- utter_goodbye
-- utter_botgreet
-- utter_veg_non_veg
-- utter_veg
-- utter_non_veg
-- utter_anthingelse
-- utter_thanks
-- utter_info
+--- 
+actions: 
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_botgreet
+  - utter_veg_non_veg
+  - utter_veg
+  - utter_non_veg
+  - utter_anthingelse
+  - utter_thanks
+  - utter_info
+intents: 
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_do_you_have
+  - vegetarian
+  - non_veg
+  - order_name_veg
+  - order_name_non_veg
+  - more_info
+templates: 
+  utter_anthingelse: 
+    - 
+      text: "Is there any thing else sir?"
+  utter_botgreet: 
+    - 
+      text: "How can i help you sir?"
+  utter_cheer_up: 
+    - 
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+      text: "Here is something to cheer you up:"
+  utter_did_that_help: 
+    - 
+      text: "Did that help you?"
+  utter_goodbye: 
+    - 
+      text: Bye
+  utter_greet: 
+    - 
+      text: "Hey! How are you?"
+  utter_happy: 
+    - 
+      text: "Great, carry on!"
+  utter_iamabot: 
+    - 
+      text: "I am a bot, powered by Rasa."
+  utter_info: 
+    - 
+      text: "Here is the link to our [website](http://www.facebook.com/)"
+  utter_non_veg: 
+    - 
+      image: "https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg"
+      text: "Here are the meals for you:"
+  utter_thanks: 
+    - 
+      text: "Thanks. We will get your order shortly."
+  utter_veg: 
+    - 
+      image: "https://youtu.be/qJDlttqmiXk"
+      text: "Here are the meals for you:"
+  utter_veg_non_veg: 
+    - 
+      buttons: 
+        - 
+          payload: /vegetarian
+          title: Vegetarian
+        - 
+          payload: /non_veg
+          title: Non-Vegetarian
+      text: "what would you prefer:"

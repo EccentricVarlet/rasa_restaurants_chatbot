@@ -1,8 +1,7 @@
-## intent:more_info
+## intent: more_info
 - i want to know about your website
 - tell me more about your site
 - what about your website
-
 ## intent:what_do_you_have
 - what can i get here?
 - what can i have to eat?
@@ -50,3 +49,28 @@
 - don't like that
 - no way
 - not really
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?

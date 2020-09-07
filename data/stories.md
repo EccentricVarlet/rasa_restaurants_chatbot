@@ -21,7 +21,6 @@
   - utter_anthingelse
 * deny
   - utter_thanks
-  
 ## happy info path
 * more_info
   - utter_info

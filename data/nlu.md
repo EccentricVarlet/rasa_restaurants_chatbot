@@ -1,7 +1,7 @@
 ## intent: more_info
-- i want to know about your website
-- tell me more about your site
-- what about your website
+- i want to know about your [website](LINK)
+- tell me more about your [site](LINK:website)
+- what about your [webpage](LINK:website)
 ## intent:what_do_you_have
 - what can i get here?
 - what can i have to eat?

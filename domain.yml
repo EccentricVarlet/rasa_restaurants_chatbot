@@ -34,8 +34,7 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_info:
-  - text: Here is the link to our 	website {link}
-  
+  - text: "Here is the link to our \twebsite {link}"
   utter_non_veg:
   - image: https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg
     text: 'Here are the meals for you:'
@@ -66,3 +65,6 @@ actions:
 - utter_thanks
 - utter_info
 - action_dynamic_link
+
+entities:
+    - LINK

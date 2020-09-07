@@ -22,10 +22,11 @@ responses:
       title: Non-Vegetarian
     text: 'what would you prefer:'
   utter_veg:
-  - text: we have mix veg, paneer butter masala, mushroom masala,etc?
+    - text: 'Here are the meals for you:'
+      image: "https://media-cdn.tripadvisor.com/media/photo-s/11/a7/72/0f/vegetarian-menu.jpg"
   utter_non_veg:
-  - text: we have egg curry, chicken butter masala, fish curry, boiled eggs, bread
-      omlette, etc?
+    - text: 'Here are the meals for you:'
+      image: "https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg"
   utter_anthingelse:
   - text: Is there any thing else sir?
   utter_thanks:

@@ -68,3 +68,6 @@ actions:
 
 entities:
     - LINK
+slots:
+    LINK:
+      type: text
